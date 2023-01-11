@@ -85,7 +85,7 @@ If you have errors with regards to any imports of `HelloWorld...`, this is likel
 
 You may also have build errors related to the generator logic, especially if it was written for the hello-world semantic model. For now, we can comment out the generator function's contents in **src/cli/generator.ts**, return an empty string, and comment/remove the imports to make Typescript happy. In the next tutorial, we'll come back to it and implement an initial version of a generator for our language.
 
-If you have any other errors while building, double check that the exported & imported names match up. More often than note there's a small discrepancy here, especially when you use a different langauge name than the default.
+If you have any other errors while building, double check that the exported & imported names match up. More often than note there's a small discrepancy here, especially when you use a different language name than the default.
 
 At this point, you should be able to run the following with no errors from the project root.
 
